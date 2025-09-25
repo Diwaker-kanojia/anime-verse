@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="public/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>AnimeVerse | Watch Anime Online</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <i class="fas fa-play-circle"></i>
+        AnimeVerse
+      </div>
+      <nav class="nav-tabs">
+        <a href="" class="nav-tab active">Movies</a>
+        <a href="" class="nav-tab">Series</a>
+      </nav>
+
+      <div class="search-bar">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Type to Search..."
+        />
+        <div class="user-actions">
+          <i class="fas fa-cog" style="cursor: pointer"></i>
+          <i
+            class="fas fa-user-circle"
+            style="cursor: pointer; color: rgb(169, 41, 41)"
+          ></i>
+        </div>
+      </div>
+    </header>
+
+    <div class="main-container">
+      <aside class="sidebar">
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">Menu</h3>
+          <a href="#" class="sidebar-item active">
+            <i class="fas fa-home"></i> Home
+          </a>
+          <a href="#" class="sidebar-item">
+            <i class="fas fa-users"></i> Community
+          </a>
+          <a href="#" class="sidebar-item">
+            <i class="fas fa-calendar"></i> Events
+          </a>
+        </div>
+
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">Categories</h3>
+          <a href="#" class="sidebar-item">
+            <i class="fas fa-film"></i> Movies
+          </a>
+          <a href="#" class="sidebar-item">
+            <i class="fas fa-clock"></i> Recent
+          </a>
+          <a href="#" class="sidebar-item">
+            <i class="fas fa-download"></i> Downloaded
+          </a>
+        </div>
+
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">General</h3>
+          <a href="#" class="sidebar-item">
+            <i class="fas fa-cog"></i> Settings
+          </a>
+          <a href="#" class="sidebar-item">
+            <i class="fas fa-user"></i> Sign In
+          </a>
+        </div>
+      </aside>
+
+      <main class="content">
+        <div class="hero-section">
+          <div class="hero-overlay">
+            <div class="hero-content">
+              <h1 class="hero-title">One Punch Man</h1>
+              <p class="hero-description">
+                A hilarious action-comedy about a young man named saitama who
+                can defeat any enemy with just one punch. Follow his journey as
+                he searches for worthy opponents while dealing with the mundane
+                problems of everyday superhero life.
+              </p>
+              <div class="hero-buttons">
+                <a href="#" class="btn btn-primary">
+                  <i class="fas fa-play"> </i> Story
+                </a>
+                <a href="#" class="btn btn-secondary">
+                  <i class="fas fa-users"> </i> Actors
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="play-button">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+
+        <section class="section">
+          <h2 class="section-title">Top Rated Anime</h2>
+          <div class="anime-grid" id="animeGrid">
+            <!-- Anime card will be loaded through API-->
+            <div class="anime-card">
+              <div class="anime-poster"></div>
+              <div class="anime-info">
+                <div class="anime-title">Naruto</div>
+                <div class="anime-rating"><i class="fas fa-star"></i>4.9</div>
+                <div class="anime-genres">Action,Comedy</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <div class="sidebar-right">
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">Popular Anime</h3>
+
+          <div class="popular-item">
+            <div
+              class="popular-poster"
+              style="
+                background-image: url('https://s.yimg.com/fz/api/res/1.2/o2X4bRppmg.DaNTzEwjQFw--~C/YXBwaWQ9c3JjaGRkO2ZpPW9wdGk7aD0xMjA7cHlvZmY9NTA7dz04MA--/https://s.yimg.com/zb/imgv1/483ca84e-3f19-3b54-ac8e-14e6ad8e2588/t_140x140');
+              "
+            ></div>
+            <div class="popular-info">
+              <h4>Attack On Titan</h4>
+              <p>4 Seasons</p>
+            </div>
+          </div>
+
+          <div class="popular-item">
+            <div
+              class="popular-poster"
+              style="
+                background-image: url('https://s.yimg.com/fz/api/res/1.2/xDod9ff7tZ7jQ0hxN0f9MA--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MTYy/https://s.yimg.com/zb/imgv1/fe8e912c-d92b-3287-8178-7c9c869bc79e/t_500x300');
+              "
+            ></div>
+            <div class="popular-info">
+              <h4>Haikyuu</h4>
+              <p>4 Seasons</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h3 class="sidebar-title">Watchlist</h3>
+
+          <div class="popular-item">
+            <div
+              class="popular-poster"
+              style="
+                background-image: url('https://s.yimg.com/fz/api/res/1.2/fRoGxdS4ET.cOo4jgKFPBw--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MTU4/https://s.yimg.com/zb/imgv1/79be9f63-0224-371d-8990-ccd5688de5fd/t_500x300');
+              "
+            ></div>
+            <div class="popular-info">
+              <h4>My Hero Acaedmia</h4>
+              <p>Resumed Episode - 6</p>
+            </div>
+          </div>
+
+          <div class="popular-item">
+            <div
+              class="popular-poster"
+              style="
+                background-image: url('https://s.yimg.com/zb/imgv1/f817abfc-0294-32ee-936f-cda05eb0554a/t_1024x1024');
+              "
+            ></div>
+            <div class="popular-info">
+              <h4>Naruto</h4>
+              <p>Episode 220</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
