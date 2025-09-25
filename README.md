@@ -11,7 +11,7 @@ It showcases popular anime, top-rated series, and a featured anime section with 
 # 📷 Screenshots  
 
 ### 🎬 Landing Page (Hero Section)  
-![Landing Page](asset/userInterface.png) 
+![Landing Page](assets/userInterface.png) 
 
 ## ✨ Features  
 - 🎬 **Featured Anime Section** – Highlighting popular titles like *One Punch Man*.  
